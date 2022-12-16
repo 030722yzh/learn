@@ -20,5 +20,6 @@ print('go')
 print("let's go")
 print("\"let\'s go\"")
 print("i love python\ni love pychram")
+print(i)
 
 
