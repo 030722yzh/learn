@@ -1,3 +1,5 @@
+import random
+
 print("Hello qiuqiu")
 i = print("nihao")
 print("i")
@@ -21,6 +23,51 @@ print("let's go")
 print("\"let\'s go\"")
 print("i love python\ni love pychram")
 print("白菜菊花")
+
+#反斜杠和原始字符r
+print("D:\three\two\one\now")
+print("D:\\three\\two\one\\now")
+print(r"D:\three\two\one\now")
+
+#换行字符
+poetry = """
+泥鳅可以欧端午
+泥鳅下一个新池60发出完
+泥鳅蟹黄下一锅一定成
+"""
+print(poetry)
+
+print(12+34)
+print('12' + '34')
+print("1234\n" * 5)
+
+print(3 < 3)
+print(3 == 3)
+print(3 > 1)
+print(3 != 1)
+
+import _random
+
+counts = 10
+i = random.randint(1,100)
+while counts > 0:
+  temp = input("猜一下一等奖是数字几：")
+  a = int(temp)
+  if a == i:
+    print("恭喜你猜对了")
+    break
+  else:
+      if a < i:
+          print("小啦")
+      else:
+          print("大啦")
+  counts  = counts - 1
+
+print("游戏结束")
+
+
+
+
 
 
 
