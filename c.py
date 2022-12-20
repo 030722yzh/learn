@@ -18,14 +18,21 @@
 # 7*9=63	7*8=56	7*7=49
 # 8*9=72	8*8=64
 # 9*9=81
+
+
+counts = 10
+i = 1
 j = 1
-while j < 10:
-    i = 1
-    while i <= j:
-        print('%d*%d=%d' % (i, j, i * j), end='\t')
-        i = i + 1
-    j = j + 1
-    print('')
+z = i + j
+print('1.1.', end='')
+while counts > 0:
+    print('%d' % (z), end='.')
+    i = j
+    j = z
+    z = i + j
+    counts = counts - 1
+
+
 
 
 

@@ -83,7 +83,7 @@ while i < 10:
     i = i + 1
     print('')
 
-
+#九九乘法表
 j = 1
 while j < 10:
     i = 1
@@ -93,8 +93,18 @@ while j < 10:
     j = j + 1
     print('')
 
-
-
+#斐波那契数列
+counts = 10
+i = 1
+j = 1
+z = i + j
+print('1.1.', end='')
+while counts > 0:
+    print('%d' % (z), end='.')
+    i = j
+    j = z
+    z = i + j
+    counts = counts - 1
 
 
 
